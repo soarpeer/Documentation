@@ -1,0 +1,30 @@
+---
+title: "Products ~ P2P DNS Domain Overview"
+description: "Welcome to the SoarPeer P2P DNS Domain Overview Documentation"
+---
+
+## P2P DNS Domain Overview
+Read the detailed P2P DNS Domain Overview documentation here. This documentation covers everything you need to know about our P2P DNS domains, including setup, configuration, and best practices.
+
+<Warning>Please note that this documentation is a work in progress and may be updated frequently as we continue to enhance our P2P DNS domain offerings.</Warning>
+
+Each domain in the P2P DNS system is associated with a set of records that define how the domain behaves. Common record types include A (address) records, CNAME (canonical name) records, and TXT (text) records. These records are stored in a distributed manner across the network, ensuring redundancy and availability.
+The DNS system translates human-readable domain names (like example.soarpeer) into IP addresses that computers use to identify each other on the network. In a P2P DNS system, this translation is handled by a distributed network of nodes, rather than a central authority.
+
+The nodes work together to maintain a consistent and up-to-date mapping of domain names to their corresponding records. When a user queries a domain name, the P2P DNS system locates the appropriate records from the distributed network and returns the relevant information to the user.
+
+If one node goes offline or becomes unreachable, other nodes in the network can still provide the necessary domain resolution services. This decentralized approach enhances the resilience and reliability of the DNS system.
+Essentially the nodes can take on the responsibility of storing and serving domain records, ensuring that the P2P DNS system remains functional even in the face of network disruptions or attacks.
+
+There are multiple ways we use to ensure data integrity and consistency across the P2P DNS network. These include consensus algorithms, replication strategies, and cryptographic techniques to verify the authenticity of domain records.
+Data is regularly synchronized among nodes to ensure that all participants have the most up-to-date information. This helps prevent discrepancies and ensures that users receive accurate domain resolution results.
+Data is also secured using encryption and digital signatures to prevent unauthorized modifications and ensure that domain records are trustworthy.
+
+<Card
+  title="P2P DNS Encryption"
+  icon="lock"
+  href="/products/docs/dns/p2p-dns/encryption"
+  horizontal
+>
+  In-depth look at the P2P DNS encryption.
+</Card>
