@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "willow",
   "name": "Documentation",
   "colors": {
     "primary": "#16A34A",
@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Main Documentation",
         "groups": [
           {
             "group": "Getting Started ~ Introduction",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "SDK reference",
         "groups": [
           {
             "group": "API documentation",
@@ -67,13 +67,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@soarpeer.network"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://dashboard.soarpeer.network"
     }
   },
   "contextual": {
