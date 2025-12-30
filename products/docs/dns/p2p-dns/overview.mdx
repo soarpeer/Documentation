@@ -1,0 +1,50 @@
+---
+title: "Products ~ P2P DNS Overview"
+description: "Welcome to the SoarPeer P2P DNS Documentation"
+---
+
+## P2P DNS Overview
+Read the detailed P2P DNS documentation here. This documentation covers everything you need to know about our P2P DNS, including setup, configuration, and best practices.
+<Warning>Please note that this documentation is a work in progress and may be updated frequently as we continue to enhance our P2P DNS offerings.</Warning>
+
+The P2P DNS is a crucial part of the SoarPeer ecosystem, enabling decentralized domain name resolution. It allows peers to resolve domain names without relying on traditional centralized DNS servers, enhancing privacy, security, and resilience.
+The DNS system translates human-readable domain names (like example.soarpeer) into IP addresses that computers use to identify each other on the network. In a P2P DNS system, this translation is handled by a distributed network of nodes, rather than a central authority.
+<Info>For a comprehensive understanding of how P2P DNS works within the SoarPeer ecosystem, please refer to the [P2P DNS Introduction](https://docs.soarpeer.network/products/docs/dns/p2p-dns/introduction) page.</Info>
+
+The DNS system is designed to be scalable, secure, and resistant to censorship. By leveraging peer-to-peer technology, it ensures that domain name resolution remains functional even if parts of the network are compromised or taken offline.
+You do not require any special software to use the P2P DNS system; it is integrated into the SoarPeer client. However, advanced users can configure their own nodes to participate in the DNS resolution process, contributing to the network's robustness.
+
+You do not connect to traditional DNS servers when using the P2P DNS system. Instead, your SoarPeer client communicates directly with other peers in the network to resolve domain names.
+
+For developers interested in integrating P2P DNS functionality into their applications, we provide an SDK and API documentation. This allows for seamless integration with the SoarPeer network, enabling applications to leverage decentralized domain name resolution.
+
+<Card
+  title="Domain Aquisition"
+  icon="globe"
+  href="/products/docs/dns/p2p-dns/domains/domain-aquisition"
+  horizontal
+>
+  Step-by-step guide to acquiring domains.
+</Card>
+
+<Card
+  title="Domain Querying"
+  icon="globe"
+  href="/products/docs/dns/p2p-dns/domains/domain-query"
+  horizontal
+>
+  Step-by-step guide to querying domains.
+</Card>
+
+Each domain in the P2P DNS system is associated with a set of records that define how the domain behaves. Common record types include A (address) records, CNAME (canonical name) records, and TXT (text) records. These records are stored in a distributed manner across the network, ensuring redundancy and availability.
+<Card
+  title="P2P DNS Architecture"
+  icon="diagram-project"
+  href="/products/docs/dns/p2p-dns/architecture"
+  horizontal
+>
+  In-depth look at the P2P DNS architecture.
+</Card>
+
+<Info>The source-code for this piece of software is available on [GitHub](https://github.com/soarpeer/soarpeer-dns).</Info>
+For any questions or further assistance, please refer to our support resources or contact our team.
